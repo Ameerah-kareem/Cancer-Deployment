@@ -12,7 +12,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import f1_score, accuracy_score
 
 # Load the dataset
-df = pd.read_csv("Breast cancer dataset refined 2.0.csv")
+df = pd.read_csv("breast_cancer_dataset_refined_2_0.csv")
 
 # Assuming 'Diagnosis' column contains the labels for whether a person has breast cancer or not
 X = df.drop("Diagnosis", axis=1) # Features
