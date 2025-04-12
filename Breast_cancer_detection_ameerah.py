@@ -60,8 +60,8 @@ print(f"Test Accuracy: {test_accuracy:.2f}")
 print(f"Test F1 Score: {test_f1:.2f}")
 
 # Streamlit App
-logo_path = r"C:\Users\Ameerah\Downloads\Think Pink! We've Gathered All The Breast Cancer Awareness Month Fashion Buys Right Here - Daily Front Row.jpeg" 
-st.image(logo_path, use_column_width='auto')
+logo_path = "images/image.jpeg"
+st.image(logo_path, use_container_width=True)
 
 # Streamlit app title
 st.title("Ameerah's SmartPredict: A Machine Learning-Based Breast Cancer Prediction System")
