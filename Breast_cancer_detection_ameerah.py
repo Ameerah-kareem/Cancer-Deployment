@@ -60,7 +60,10 @@ print(f"Test Accuracy: {test_accuracy:.2f}")
 print(f"Test F1 Score: {test_f1:.2f}")
 
 # Streamlit App
-logo_path = "images/image.jpeg"
+import os
+import streamlit as st
+
+logo_path = os.path.join("images", "image.jpeg")  
 st.image(logo_path, use_container_width=True)
 
 # Streamlit app title
